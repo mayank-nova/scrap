@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Scrap Setu – the bridge between your raddi and the recycler</title>
+<link rel="icon" type="image/png" href="assets/logo.png">
+<link rel="apple-touch-icon" href="assets/logo.png"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Hind:wght@400;500;600&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div id="loader" class="loader show" role="status" aria-live="polite"><div class="lbox"><div class="ring"></div><img id="loaderLogo" alt="Scrap Setu logo" width="124" height="124"></div><span class="sr-only">Loading</span></div>
+
+<header class="site">
+  <div class="wrap">
+    <button class="brand" data-go="home" aria-label="Scrap Setu home"><span class="logo-slot" id="logoSlot" aria-hidden="true">LOGO</span><b>Scrap Setu</b><span class="devanagari">स्क्रैप सेतु</span></button>
+    <nav class="main" id="mainNav" aria-label="Main"></nav>
+    <div class="hright"><button class="navlink themebtn" id="themeBtn" aria-pressed="false"></button><span id="authNav" class="row" style="gap:.5rem"></span><button class="navlink menutoggle" id="menuBtn" aria-expanded="false" aria-controls="mainNav" aria-label="Open menu"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button></div>
+  </div>
+</header>
+
+<main id="app" tabindex="-1"></main>
+
+<footer class="site">
+  <div class="wrap"><span>Scrap Setu (setu means bridge in Hindi). A hackathon prototype: prices and scan results are samples.</span><button class="btn link small" data-go="about">About us</button></div>
+</footer>
+
+<script src="config.js"></script>
+<script src="js/utils.js"></script>
+<script src="js/session.js"></script>
+<script src="js/database.js"></script>
+<script src="js/icons.js"></script>
+<script src="js/api_client.js"></script>
+<script src="js/components/dashboard.js"></script>
+<script src="js/components/customer_dashboard.js"></script>
+<script src="js/components/collector_dashboard.js"></script>
+<script src="js/components/auth.js"></script>
+<script src="js/components/info.js"></script>
+<script src="js/components/landing.js"></script>
+<script src="js/components/pickups.js"></script>
+<script src="js/components/prices.js"></script>
+<script src="js/components/scanner.js"></script>
+<script src="js/components/topbar.js"></script>
+<script src="js/extras.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
